@@ -3,6 +3,9 @@
 # M.Sc. Software Development - University of Strathclyde, Glasgow
 # Session: 2019/2020
 
+# Developer: Abel Akponine
+# Date: February 2020
+
 # Technologies used:
 1. Java Framework
 2. Android Studio (Version 3.5.3)
