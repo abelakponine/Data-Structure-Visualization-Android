@@ -4,7 +4,7 @@
 # Session: 2019/2020
 
 # Technologies used:
-1. Java Franmework
+1. Java Framework
 2. Android Studio
 
 Implementations in this project includes:
