@@ -5,7 +5,7 @@
 
 # Technologies used:
 1. Java Framework
-2. Android Studio
+2. Android Studio (Version 3.5.3)
 
 Implementations in this project includes:
 1. Stack Data Visualization.
