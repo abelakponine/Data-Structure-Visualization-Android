@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fitsSystemWindows="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20sp"
+                    android:padding="6sp"
+                    android:text="Data Structure Algorithms"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#efefef"
+                    android:orientation="horizontal"
+                    android:paddingLeft="30sp"
+                    android:paddingTop="80sp"
+                    android:paddingRight="30sp"
+                    android:paddingBottom="80sp">
+
+                    <Button
+                        android:id="@+id/stackActivity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="80sp"
+                        android:layout_margin="4sp"
+                        android:layout_weight="1"
+                        android:text="Stack Data" />
+
+                    <Button
+                        android:id="@+id/queActivity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="80sp"
+                        android:layout_margin="4sp"
+                        android:layout_weight="1"
+                        android:text="Queue Data" />
+
+                    <Button
+                        android:id="@+id/recursiveReverse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="80sp"
+                        android:layout_margin="4sp"
+                        android:layout_weight="1"
+                        android:text="Recursive Reverse" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="70sp"
+                    android:layout_marginBottom="10sp"
+                    android:text="Copyright (c) 2020\nDeveloped by Abel Akponine"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
