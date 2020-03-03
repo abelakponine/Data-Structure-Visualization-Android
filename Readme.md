@@ -1,6 +1,6 @@
 # Data Structure Visualization (Android Implementation)
 # Course: CS991 (Mobile Application Development)
-# M.Sc. Software Development - University of Strathclyde
+# M.Sc. Software Development - University of Strathclyde, Glasgow
 # Session: 2019/2020
 
 # Technologies used:
